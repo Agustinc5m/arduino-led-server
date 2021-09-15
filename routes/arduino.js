@@ -19,4 +19,8 @@ router.get('/rgb', async (req, res) => {
   return res.send(arduinoResponse);
 });
 
+router.get('/monarca', async (req, res) => {
+  return res.send('Hola Andy, fuga a pistear');
+})
+
 module.exports = router;
